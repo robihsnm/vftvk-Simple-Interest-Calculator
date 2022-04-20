@@ -26,10 +26,12 @@ tr {
 	/* sub div created to ident calculation part for header and footer parts */
 	width:400px;
 	margin:auto;
-}
-.resultFont {
-	/*  all result texts will be displayed on yellow background */
-	}
-.highlight{background-color: yellow;}
 	
+	
+}
+
+/*  all result texts will be displayed on yellow background */
+
+.resultFont {
+	.highlight{background-color: yellow;}	
 }

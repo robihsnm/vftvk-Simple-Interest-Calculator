@@ -1,36 +1,33 @@
-body 
-{
-    background-color: #000000;
-    color: #ffffff;
-    font-family: Arial;
+body {
+	/* background page is black */
+	background-color:black; 
+	font-family:arial; 
+	color:white;
 }
-
-h1
-{
-    color: grey;
-    font-family: Verdana;
+h1 {
+	/* title is grey colored, font verdana */
+	color:grey; 
+	font-family:verdana;
 }
-
-.maindiv
-{
-    background-color:white;
-    color:black;
-    width:300px;
-    padding:20px;
-    border-radius:25px;
-    align:center
+tr {
+	height:2em;		/* lines heigth set to 2em to enlarge space between lines */
 }
-
-/* #result
-{
-    display: none;
-} */
-
-
-
-#compute
-
-.highlight
-{
-    background-color: yellow;
+.maindiv {
+	/* principal part of screen is writtem black on white */
+	background-color:white; 
+	color:black; 
+	font-family:verdana;
+	width:500px;
+	padding:20px;
+	border-radius:20px;
+	margin:auto;
+}
+.subDiv {
+	/* sub div created to ident calculation part for header and footer parts */
+	width:400px;
+	margin:auto;
+}
+.resultFont {
+	/*  all result texts will be displayed on yellow background */
+	background-color:yellow;
 }

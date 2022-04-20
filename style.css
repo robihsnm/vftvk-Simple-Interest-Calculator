@@ -29,5 +29,7 @@ tr {
 }
 .resultFont {
 	/*  all result texts will be displayed on yellow background */
-	background-color:yellow;
+	}
+.highlight{background-color: yellow;}
+	
 }
